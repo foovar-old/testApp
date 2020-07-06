@@ -97,16 +97,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uiw-YD-Gc8">
-                                <rect key="frame" x="132" y="423" width="150" height="2"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="testBar" destination="uiw-YD-Gc8" id="Ky6-W6-Jxn"/>
                         <outlet property="testGetButton" destination="BrY-bs-qmF" id="D9x-DO-pB8"/>
                         <outlet property="testLabel" destination="aDw-te-Vc2" id="Ft3-9l-hnS"/>
                         <outlet property="testTextField" destination="1tw-eu-SMS" id="ecD-d9-AjS"/>

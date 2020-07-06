@@ -16,27 +16,26 @@ class ViewController: UIViewController {
     //------------------------------
     // MARK: オブジェクトの宣言
     //------------------------------
-    // 文字の表示用
-    @IBOutlet weak var testTimeLabel: UILabel!
-    // 文字の入力用
+    
+    /// 文字の入力用
     @IBOutlet weak var testTextField: UITextField!
-    // 年の表示用
+    /// 文字の表示用
     @IBOutlet weak var testLabel: UILabel!
-    // 年の表示用
+    /// アクションボタン
     @IBOutlet weak var testGetButton: UIButton!
-    // 年の表示用
+    /// 年の表示用
     @IBOutlet weak var txtYear: UITextField!
-    // 月の表示用
+    /// 月の表示用
     @IBOutlet weak var txtMonth: UITextField!
-    // 日`の表示用
+    /// 日の表示用
     @IBOutlet weak var txtDay: UITextField!
-    // 時の表示用
+    /// 時の表示用
     @IBOutlet weak var txtHour: UITextField!
-    // 分の表示用
+    /// 分の表示用
     @IBOutlet weak var txtMinute: UITextField!
-    // 秒の表示用
+    /// 秒の表示用
     @IBOutlet weak var txtSecond: UITextField!
-    // 曜日の表示用
+    /// 曜日の表示用
     @IBOutlet weak var txtWeekday: UITextField!
     
     
@@ -55,7 +54,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // testLabelの初期値をセット
+        /// testLabelの初期値をセット
         testLabel.text="テキストボックスに文字を入れてGET"
         
         // 表示の初期化関数呼び出し
